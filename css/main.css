@@ -1,0 +1,29 @@
+.headerWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px;
+    align-items: center;
+    gap: 30px;
+}
+
+.navItem {
+    display: grid;
+    grid-template-rows: 40px;
+    align-items: center;
+    justify-content: center;
+    border: #004b04 dashed 2px;
+    border-radius: 5px;
+}
+
+.aboutCompany {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 300px;
+    gap: 30px;
+
+}
+
+.aboutCompany__article {
+    border: #862200 dashed 2px;
+    border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+html, body, a {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #262626;
+}
